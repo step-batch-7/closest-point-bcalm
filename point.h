@@ -19,5 +19,5 @@ typedef struct
   int y;
 } Point;
 
-unsigned long int calculate_distance(int, int, int, int);
+unsigned long int calculate_distance(Point, Point);
 void get_closest_food(Point food_points[], int points_length, Point current_location, Point *closest_food_location);
