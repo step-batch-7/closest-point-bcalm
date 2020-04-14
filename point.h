@@ -5,8 +5,8 @@
     {18, 76}, {19, 66}, {89, 57}, {9, 71}, { 55, 38 } \
   }
 
-#define POINTS_LENGTH sizeof(food_points) / sizeof(food_points[0])
-#define REPEAT(points_length) for (int point = 0; point < points_length; point++)
+#define POINTS_LENGTH 5
+#define REPEAT(points_length) for (int point = 1; point < points_length; point++)
 
 typedef struct
 {
